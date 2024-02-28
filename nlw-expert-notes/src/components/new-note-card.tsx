@@ -30,6 +30,10 @@ export function NewNoteCard({ onNoteCreated }: newNoteCardProps) {
   function handelSaveNote(event: FormEvent){
     event.preventDefault()
 
+    if(content == ''){
+      return
+    }
+
     onNoteCreated(content)
 
     setContent('')
