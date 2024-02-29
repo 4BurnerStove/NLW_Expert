@@ -1,4 +1,4 @@
-# NLW-COPA
+# NLW-Expert
 Projeto que fiz no dia 29/02/2024, esse projeto consiste em um estudo sobre Tailwind e typescript principalmente, a onde nele é possivel fazer anotações sejam elas gravadas ou digitadas, também é possivel fazer uma busca dentre as notas. 
 <h1 align="center"> NLW-Expert </h1>
 
