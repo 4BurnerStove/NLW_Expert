@@ -15,7 +15,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <br>
 
 <p align="center">
-    <img alt="Web notes preview" src="![Preview](https://github.com/4BurnerStove/NLW_Expert/assets/112003817/3cb1cbe1-89fd-437c-b147-b326e3ca6139)" width="100%">
+    <img alt="Web notes preview" src="https://github.com/4BurnerStove/NLW_Expert/assets/112003817/3cb1cbe1-89fd-437c-b147-b326e3ca6139" width="100%">
 </p>
 
 ## 🚀 Tecnologias
