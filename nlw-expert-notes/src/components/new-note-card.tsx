@@ -53,7 +53,22 @@ export function NewNoteCard({ onNoteCreated }: newNoteCardProps) {
       return
     }
 
-    const SpeechRecognitionAPI = window.speechRecognition || window.webkitSpeechRecognition
+    const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition
+
+    const speechRecognition = new SpeechRecognitionAPI()
+
+    speechRecognition.lang = 'pt-BR'
+    speechRecognition.continuous = true
+    speechRecognition.maxAlternatives = 1 
+    speechRecognition.interimResults = true
+
+    speechRecognition.onresult = (event) => {
+      console.log(event.results)
+    }
+
+    speechRecognition.onerror = (event) => {
+      console.error(event)
+    }
   }
 
   function handleStopRecording() {
